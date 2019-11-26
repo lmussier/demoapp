@@ -1,0 +1,7 @@
+version: "3"
+services:
+  hello:
+    image: hashicorp/http-echo
+    command: ["-text", "Hello World"]
+    ports:
+      - 80:5678
